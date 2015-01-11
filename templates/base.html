@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Thu Oct 31 2013 20:33:21 GMT+0000 (UTC) -->
+<html data-wf-site="52523db1f2baaff426000119">
+  <head>
+    <meta charset="utf-8">
+    <title>El techo apalabrado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/eltecho.webflow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu:300,400,500,700","Inconsolata:400,700"]
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script type="text/javascript" src="js/webflow.js" defer></script>
+  </head>
+  <body>
+    <div class="header-container">
+      <center>
+        <a href="/" class="header_center">
+          <img src="/images/elTechov2full.png" alt="El techo apalabrado">
+        </a>
+      </center>
+    </div>
+    <div class="header-container-mobile">
+      <center>
+        <h1>
+          <a href="/" class="header_center">
+            El techo apalabrado
+          </a>
+        </h1>
+      </center>
+    </div>
+    <div class="social-container">
+      <div class="div_social">
+        <a class="w-inline-block menu" href="https://twitter.com/medied" target="_blank">
+          <img class="menu_image" src="images/twitter.png" alt="twitter.png">
+        </a>
+      </div>
+      <div class="div_social">
+        <a class="w-inline-block menu" href="https://www.goodreads.com/medied" target="_blank">
+          <img class="menu_image" src="images/icon_goodreads_01.png" alt="icon_goodreads_01.png">
+        </a>
+      </div>
+      <div>
+        <a class="w-inline-block menu" href="/acerca">
+          <img class="menu_image" src="/images/techoThumb.png" alt="eta">
+        </a>
+      </div>
+    </div>  
+    <div class="w-row row_main">
+      <div class="front_render">
+        <div class="w-container front_render_c">
+          {% block content %}
+          {% endblock %}
+        </div> 
+      </div>
+    </div>
+  </body>
+</html>

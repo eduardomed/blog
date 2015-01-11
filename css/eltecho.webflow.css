@@ -1,0 +1,283 @@
+body {
+  background-color: white;
+  background-image: url(../images/america.png);
+  background-position: 70% 80%;
+  background-size: 450px;
+  background-repeat: no-repeat no-repeat;
+  background-attachment:fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+h1 {
+  margin: 10px 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 200;
+  text-align: center;
+  text-decoration: none;  
+  text-decoration-color:black;
+
+}
+h1 a, h1 a:link, h1 a:visited{
+  text-decoration: none;
+  color: black;
+}
+h1 a:hover{
+  color: #B2C248;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 200;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align:justify;
+  text-justify:inter-word;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+a:link{
+  color:#B2C248;
+  text-decoration: none;
+}
+a:visited{
+  color:#B2C248;
+}
+a:hover{
+  color:black;
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.menu {
+  margin-top: 0px;
+  margin-right: 0px;
+  
+  padding-top: 0px;
+  padding-right: 0px;
+  
+  float: none;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+}
+.menu_image {
+  width: 28px;
+  height: 35px;
+  margin-right: 0px;
+  
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: none;
+  direction: ltr;
+  text-align: left;
+}
+.right_image {
+  width: 29.30000000000001%;
+  height: 61%;
+  margin-top: 76px;
+  margin-bottom: 77px;
+  margin-left: -102px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: right;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  box-shadow: none;
+  opacity: 0.5;
+  direction: ltr;
+}
+.row_main {
+  height: 96.6%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  float: none;
+  max-width: 887px;
+  
+}
+.menu_image_t {
+  width: 29px;
+  height: 35px;
+  margin-left: 37px;
+}
+.front_render {
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: none;
+}
+.div_social {
+ padding-top: 0px;
+ margin-bottom: 5px;
+}
+
+.front_render_c {
+  
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.div_acerca {
+  margin-top: 0px;
+}
+
+.post + .post {
+    margin-top: 15px;
+}
+
+.post-heading {
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.post-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-image img {
+  width: 100%;
+}
+
+.border{
+  margin: 0 auto;
+  border:2px solid #FFFFFF;
+  background:#FFFFFF;
+  max-width:500px;
+  max-height:500px;
+  border-radius:25px;
+  overflow: hidden;
+}
+
+.post-date {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #999;
+}
+
+.post-content {
+    margin-top: 5px;
+    margin-bottom: 125px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-comments{
+  position: static;
+  right: 0px;
+  bottom: 0px;
+}
+
+.header-container {
+  
+  position: fixed;
+  width:100%;
+  top:0px;
+  z-index: 10;
+  background: white;
+  
+}
+
+.juego{
+  margin-bottom: 10px;
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+.social-container {
+  position: fixed;
+  bottom: 13px;
+  left: 13px;
+  padding: 10px;
+  background: rgba(200,200,200,.6);
+  border-radius: 7px;
+}
+
+.header_center{
+  display: block;
+  max-height: 180px;
+  height: 100%;
+}
+
+.header_center img {
+  height: 100%;
+  max-height: 180px;
+}
+
+.header-container-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 780px){
+  .header-container-mobile{
+  display: block;
+  }
+  .header-container{
+  display: none;
+  }
+  .social-container{
+    display: none;
+  }
+  .post-title h1{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .post-content h4{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .row_main {
+    margin-top: 10px;
+  }
+  .post-content{
+    padding: 0 10px;
+  }
+
+}

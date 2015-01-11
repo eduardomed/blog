@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Thu Oct 31 2013 20:33:21 GMT+0000 (UTC) -->
+<html data-wf-site="52523db1f2baaff426000119">
+  <head>
+    <meta charset="utf-8">
+    <title>El techo apalabrado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/eltecho.webflow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu:300,400,500,700","Inconsolata:400,700"]
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script type="text/javascript" src="js/webflow.js" defer></script>
+  </head>
+  <body>
+    <h1>El juego de la nena</h1>
+    <div class="juego">
+      <center>
+        <!-- <div class="juego"> -->
+          Había una vez una nena en San Francisco que cumplio 24 años de su vida. Y se puso a jugar.
+
+          Cada pregunta tiene una -y solo una- respuesta. ¿Tu eres una ganadora, no es cierto? Entonces respondelas correctamente y, tal vez, recibarás una sorpresa al final.
+        <!-- </div> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      
+        <form method="post">
+
+          <label>
+            <div>{{pregunta}}</div>
+            <input type="text" name="respuesta" value="{{respuesta}}" size="50">
+          </label>
+
+          <div>{{msg}}</div>
+
+
+          <input type="submit">
+        </form>
+      </center>
+    </div>
+
+  </body>
+</html>

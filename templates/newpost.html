@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>new post</h2>
+
+    <form method="post">
+      <label>
+        <div>Imagen</div>
+        <input type="text" name="image" value="{{image}}" size="50">
+      </label>
+
+      <label>
+        <div>Titulo</div>
+        <input type="text" name="subject" value="{{subject}}" size="50">
+      </label>
+
+      <label>
+        <div>Path</div>
+        <input type="text" name="path_name" value="{{path_name}}" size="50">
+      </label>
+
+      <label>
+        <div>Palabras</div>
+        <textarea name="content" rows="30" cols="195">{{content}}</textarea>
+      </label>
+
+      <div class="error">{{error}}</div>
+
+      <input type="submit">
+    </form>
+{% endblock %}
